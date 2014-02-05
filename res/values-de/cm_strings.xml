@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2013 The CyanogenMod Project
+<!--
+     Copyright (C) 2013-2014 The CyanogenMod Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -80,12 +81,6 @@
     <string name="blacklist_title">Sperrliste</string>
     <string name="blacklist_summary_disabled">Deaktiviert</string>
     <string name="blacklist_summary">Eingehende Nachrichten von Nummern, die sich in der Sperrliste befinden, werden abgewiesen</string>
-    <string name="blacklist_notification">Eine Nachricht von % wurde abgewiesens</string>
-    <string name="blacklist_notification_private_number">Eine Nachricht mit unterdrückter Nummer wurde abgewiesen</string>
-    <string name="blacklist_notification_list_private">Unterdrückte Nummer</string>
-    <string name="blacklist_notification_unknown_number">Eine Nachricht von %s wurde abgewiesen</string>
-    <string name="blacklist_notification_multiple"><xliff:g id="count">%d</xliff:g> abgewiesene Nachrichten</string>
-    <string name="unblock_number">Sperre aufheben</string>
     <string name="add_to_blacklist">Zur Sperrliste hinzufügen</string>
     <string name="add_to_blacklist_message">Zukünftige Nachrichten von %s werden abgewiesen</string>
     <string name="alert_dialog_yes">Ja</string>
@@ -97,8 +92,7 @@
     <string name="menu_done">Fertig</string>
     <string name="menu_mobile">Nur Mobilnummern anzeigen</string>
     <string name="menu_groups">Gruppen anzeigen</string>
-    <string name="fastscroll_index_groups">GR</string> <!-- CHAR LIMIT=3 -->
-    <!-- Delay delivery -->
+    <string name="fastscroll_index_groups">GR</string>
     <string name="pref_title_send_delay">Versandverzögerung</string>
     <string name="send_delay_immediate">Sofort versenden</string>
     <string name="send_delay_3seconds">3 Sekunden</string>
@@ -107,4 +101,11 @@
     <string name="send_delay_20seconds">20 Sekunden</string>
     <string name="send_delay_30seconds">30 Sekunden</string>
     <string name="sent_countdown">Zeit bis zum Versand</string>
+    <string name="pref_title_mms_notification_vibrate_pattern">Vibrationsmuster</string>
+    <string name="pref_summary_mms_notification_vibrate_pattern">Vibrationsmuster ändern</string>
+    <string name="pref_mms_notification_vibrate_normal">Normal</string>
+    <string name="pref_mms_notification_vibrate_med_vib">Mittel</string>
+    <string name="pref_mms_notification_vibrate_long_vib">Lang</string>
+    <string name="pref_mms_notification_vibrate_mult_short">Mehrmals kurz</string>
+    <string name="pref_mms_notification_vibrate_mult_long">Mehrmals lang</string>
 </resources>

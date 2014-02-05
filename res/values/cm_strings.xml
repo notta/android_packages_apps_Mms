@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2013 The CyanogenMod Project
+<!--
+     Copyright (C) 2013-2014 The CyanogenMod Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -128,14 +129,6 @@
     <string name="blacklist_summary_disabled">Disabled</string>
     <string name="blacklist_summary">Incoming messages from phone numbers in the blacklist will be blocked</string>
 
-    <!-- Blacklist notifications -->
-    <string name="blacklist_notification">Blocked a message from %s</string>
-    <string name="blacklist_notification_private_number">Blocked a message from a private number</string>
-    <string name="blacklist_notification_list_private">Private</string>
-    <string name="blacklist_notification_unknown_number">Blocked a message from unknown number %s</string>
-    <string name="blacklist_notification_multiple"><xliff:g id="count">%d</xliff:g> messages were blocked</string>
-    <string name="unblock_number">Unblock</string>
-
     <!-- Blacklist management -->
     <string name="add_to_blacklist">Add to blacklist</string>
     <string name="add_to_blacklist_message">Future messages from %s will be blocked</string>
@@ -163,5 +156,14 @@
     <string name="send_delay_20seconds">20 seconds</string>
     <string name="send_delay_30seconds">30 seconds</string>
     <string name="sent_countdown">Message delivery countdown</string>
+
+    <!-- Vibrate pattern -->
+    <string name="pref_title_mms_notification_vibrate_pattern">Vibrate pattern</string>
+    <string name="pref_summary_mms_notification_vibrate_pattern">Change vibrate pattern</string>
+    <string name="pref_mms_notification_vibrate_normal">Normal</string>
+    <string name="pref_mms_notification_vibrate_med_vib">Medium vibrate</string>
+    <string name="pref_mms_notification_vibrate_long_vib">Long vibrate</string>
+    <string name="pref_mms_notification_vibrate_mult_short">Multiple short</string>
+    <string name="pref_mms_notification_vibrate_mult_long">Multiple long</string>
 
 </resources>

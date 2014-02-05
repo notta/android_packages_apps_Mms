@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2013 The CyanogenMod Project
+<!-- Copyright (C) 2013-2014 The CyanogenMod Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -80,12 +80,6 @@
     <string name="blacklist_title">Liste noire</string>
     <string name="blacklist_summary_disabled">Désactivé</string>
     <string name="blacklist_summary">Les messages entrants des numéros de la liste noire seront bloqués</string>
-    <string name="blacklist_notification">Message de %s bloqué</string>
-    <string name="blacklist_notification_private_number">Message d\'un numéro privé bloqué</string>
-    <string name="blacklist_notification_list_private">Privé</string>
-    <string name="blacklist_notification_unknown_number">Message d\'un numéro inconnu %s bloqué</string>
-    <string name="blacklist_notification_multiple"><xliff:g id="count">%d</xliff:g> messages ont été bloqués</string>
-    <string name="unblock_number">Débloquer</string>
     <string name="add_to_blacklist">Ajouter à la liste noire</string>
     <string name="add_to_blacklist_message">Les futurs messages de %s seront bloqués</string>
     <string name="alert_dialog_yes">Oui</string>
@@ -98,4 +92,12 @@
     <string name="menu_mobile">Mobiles uniquement</string>
     <string name="menu_groups">Afficher les groupes</string>
     <string name="fastscroll_index_groups">GR</string>
+    <string name="pref_title_send_delay">Délai d\'envoi</string>
+    <string name="send_delay_immediate">Envoi immédiat</string>
+    <string name="send_delay_3seconds">3 secondes</string>
+    <string name="send_delay_5seconds">5 secondes</string>
+    <string name="send_delay_10seconds">10 secondes</string>
+    <string name="send_delay_20seconds">20 secondes</string>
+    <string name="send_delay_30seconds">30 secondes</string>
+    <string name="sent_countdown">Décompte avant l\'envoi</string>
 </resources>
