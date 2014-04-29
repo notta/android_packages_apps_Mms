@@ -280,7 +280,7 @@ public class ComposeMessageActivity extends Activity
 
     // To reduce janky interaction when message history + draft loads and keyboard opening
     // query the messages + draft after the keyboard opens. This controls that behavior.
-    private static final boolean DEFER_LOADING_MESSAGES_AND_DRAFT = true;
+    private static final boolean DEFER_LOADING_MESSAGES_AND_DRAFT = false;
 
     // The max amount of delay before we force load messages and draft.
     // 500ms is determined empirically. We want keyboard to have a chance to be shown before
@@ -818,15 +818,16 @@ public class ComposeMessageActivity extends Activity
         mMsimDialog.setCanceledOnTouchOutside(true);
 
         int[] smsBtnIds = {R.id.BtnSubOne, R.id.BtnSubTwo, R.id.BtnSubThree};
-        int[] subString={R.string.sub1, R.string.sub2, R.string.sub3};
         int phoneCount = MSimTelephonyManager.getDefault().getPhoneCount();
         Button[] smsBtns = new Button[phoneCount];
 
         for (int i = 0; i < phoneCount; i++) {
             final int subscription = i;
+            int subID = i + 1;
             smsBtns[i] = (Button) layout.findViewById(smsBtnIds[i]);
             smsBtns[i].setVisibility(View.VISIBLE);
-            smsBtns[i].setText(subString[i]);
+            smsBtns[i].setText(MSimTelephonyManager.getDefault().getNetworkOperatorName(i)
+                    + "-" + subID);
             smsBtns[i].setOnClickListener(
                 new View.OnClickListener() {
                     public void onClick(View v) {
